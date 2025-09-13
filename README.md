@@ -1,20 +1,51 @@
-# PHP Basic Scripts
+# PHP Utilities
 
-This repository contains a collection of basic PHP scripts demonstrating fundamental programming concepts.
+A small collection of PHP scripts for demonstration and learning.
 
-## Scripts
+## Overview
+This repository contains simple PHP scripts for demonstration purposes, including fizzbuzz and a calendar helper. The README is being updated to provide a structured overview, the technologies used, setup instructions, and categorized TODOs.
 
-- `calendar.php`: Generates a simple HTML calendar for the current month.
-- `fizzbuzz.php`: Implements the classic FizzBuzz problem, printing numbers from 1 to 100 with specific rules for multiples of 3, 5, and both.
+## Stack
+- PHP 8.x (tested with PHP 8.0+)
+- HTML5/CSS minimal for any web output
+- CLI PHP for script execution
 
-## Technologies
+## Setup
+- Prerequisites
+  - PHP 8.x or higher
+- Local development
+  - Run a simple PHP built-in server:
+    - php -S localhost:8000
+  - Or run individual scripts via CLI:
+    - php fizzbuzz.php
+    - php calendar.php
+- Quick checks
+  - Ensure PHP is available: php -v
 
-- PHP
-- HTML
+## Usage
+- fizzbuzz
+  - php fizzbuzz.php
+- calendar
+  - php calendar.php
+- Example outputs will appear in the terminal.
 
-## How to Run
+## Directory structure
+- calendar.php
+- fizzbuzz.php
+- README.md (this file)
 
-These scripts can be run on a web server with PHP installed (e.g., Apache, Nginx with PHP-FPM).
+## TODOs
+- Core
+  - [ ] Ensure PHP version compatibility (8.0+)
+  - [ ] Add basic input validation to scripts
+- Documentation
+  - [x] Update README with overview, stack, setup, and categorized TODOs
+  - [ ] Improve README examples
+- Quality
+  - [ ] Add basic logging
+  - [ ] Add simple tests for fizzbuzz and calendar outputs
+- Maintenance
+  - [ ] Keep scripts up to date with PHP changes
 
-1. Place the files in your web server's document root.
-2. Access them via your web browser (e.g., `http://localhost/calendar.php`, `http://localhost/fizzbuzz.php`).
+## Contributing
+- Contributions are welcome. Open issues and submit PRs.
